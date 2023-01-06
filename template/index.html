@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <button id="btn-execute">Greet</button>
+    <script>
+      const button = document.getElementById("btn-execute")
+
+      button.addEventListener("click", async () => {
+        const block = craft.blockFactory.textBlock({ 
+          content: "Hello world!"
+        })
+
+        await craft.dataApi.addBlocks([ block ])
+      })
+    </script>
+  </body>
+</html>

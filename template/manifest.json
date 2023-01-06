@@ -1,0 +1,10 @@
+{
+  "id": "do.craft.hello",
+  "name": "Hello World",
+  "fileName": "hello-world",
+  "author": "Craft Docs",
+  "author-email": "team@craft.do",
+  "description" : "Joyfully greets world citizens",
+  "api": "0.1.0",
+  "main": "index.html"
+}
